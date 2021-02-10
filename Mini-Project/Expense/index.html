@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Expense_Tracker</title>
+</head>
+<body>
+    <h1>Expense Tracker</h1>
+    <h2>Add A New Item:</h2>
+    <div id='submitInfo'>
+        <p class='name'>Name: <input type="text" id='name' placeholder="Where was the expense made?"></p>
+        <p>Date: <input type="date" id='date' placeholder="mm/dd/yyyy"></p>
+        <p>Amount: <input type="number" id='amount'></p>
+    </div>
+    <button class="btn btn-success" onclick="addExpense()">Add Expense</button>
+    <table id= 'expenseTable'>
+        <tr>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Amount</th>
+            <th></th>
+        </tr>
+    </table>
+    <script src='script.js'></script>
+</body>
+</html>

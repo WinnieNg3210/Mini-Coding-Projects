@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: normal;
+}
+
+h2 {
+    color: rgb(3, 179, 3);
+}
+
+p {
+    font-weight: bold;
+}
+
+#submitInfo {
+    display: flex;
+    margin: .2em 6em;
+    flex-wrap: wrap;
+}
+
+#submitInfo p {
+    text-align: left;
+    width: 50%;
+}
+
+#submitInfo .name {
+    width: 100%;
+}
+
+.name {
+    text-align: left;
+}
+
+p input {
+    width: 66%;
+}
+
+.name input {
+    width: 85%;
+}
+
+/* button {
+    line-height: 1.428571429;
+    border-radius: .25em;
+    color: white;
+    border-color: rgb(92,184,92);
+    background-color: rgb(92,184,92);
+} */
+
+table, tr {
+    margin: 2em 6em;
+    border: thin solid rgb(173, 173, 173);
+    width: 75%;
+}
+
+th {
+    background-color: rgb(223, 222, 222);
+    border: thin solid rgb(173, 173, 173);
+}
+
+th, td{
+    padding-left: .5em;
+    text-align: left;
+}
